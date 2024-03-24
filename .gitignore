@@ -1,0 +1,8 @@
+# JetBrains
+/.idea/
+
+# Password
+/password.txt
+
+# Data
+/data/

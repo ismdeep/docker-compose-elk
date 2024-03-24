@@ -1,0 +1,17 @@
+cluster:
+  name: elasticsearch-spring
+
+discovery:
+  type: single-node
+
+network:
+  bind_host: 0.0.0.0
+
+http:
+  port: 9200
+  cors:
+    allow-origin: '*'
+
+xpack:
+  security:
+    enabled: true
